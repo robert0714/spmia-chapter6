@@ -20,4 +20,6 @@ eureka:
 zuul:
   prefix:  /api
   routes:
-  organizationservice: /organization/**
+    organizationservice: /organization/**
+    licensingservice: /licensing/**
+  include-debug-header:  true

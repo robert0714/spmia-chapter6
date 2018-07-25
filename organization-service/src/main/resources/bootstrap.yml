@@ -7,3 +7,6 @@ spring:
   cloud:
     config:
       enabled: true
+management:
+  security:
+     enabled: false
